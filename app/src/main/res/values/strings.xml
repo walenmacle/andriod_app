@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">天气预报</string>
+    <string name="action_settings">设置</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <!-- 底部导航 -->
+    <string name="nav_weather">天气</string>
+    <string name="nav_forecast">预报</string>
+    <string name="nav_music">音乐</string>
+    <string name="nav_diary">日记</string>
+    <string name="nav_settings">设置</string>
+    
+    <!-- 天气相关 -->
+    <string name="current_location">当前位置</string>
+    <string name="weather_loading">正在获取天气数据...</string>
+    <string name="weather_error">获取天气数据失败</string>
+    <string name="temperature_unit">°C</string>
+    <string name="humidity_label">湿度</string>
+    <string name="wind_speed_label">风速</string>
+    <string name="visibility_label">能见度</string>
+    <string name="pressure_label">气压</string>
+    <string name="feels_like_label">体感温度</string>
+    
+    <!-- 预报相关 -->
+    <string name="daily_forecast">每日预报</string>
+    <string name="hourly_forecast">逐时预报</string>
+    <string name="forecast_loading">正在加载预报数据...</string>
+    
+    <!-- 音乐相关 -->
+    <string name="music_player">音乐播放器</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="repeat">循环播放</string>
+    <string name="playlist">播放列表</string>
+    <string name="unknown_artist">未知艺术家</string>
+    
+    <!-- 日记相关 -->
+    <string name="diary">日记</string>
+    <string name="add_diary">新建日记</string>
+    <string name="diary_title">标题</string>
+    <string name="diary_content">内容</string>
+    <string name="diary_mood">心情</string>
+    <string name="diary_weather">天气</string>
+    <string name="save_diary">保存</string>
+    <string name="delete_diary">删除</string>
+    <string name="search_diary">搜索日记</string>
+    
+    <!-- 设置相关 -->
+    <string name="settings">设置</string>
+    <string name="profile">个人信息</string>
+    <string name="theme_settings">主题设置</string>
+    <string name="notification_settings">通知设置</string>
+    <string name="about">关于</string>
+    <string name="help">帮助</string>
+    <string name="logout">退出登录</string>
+    
+    <!-- 通用 -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="search">搜索</string>
+    <string name="loading">加载中...</string>
+    <string name="error">错误</string>
+    <string name="retry">重试</string>
+    <string name="refresh">刷新</string>
+</resources>

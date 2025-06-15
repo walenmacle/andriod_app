@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/weatherFragment"
+        android:icon="@drawable/ic_weather"
+        android:title="天气" />
+    
+    <item
+        android:id="@+id/forecastFragment"
+        android:icon="@drawable/ic_forecast"
+        android:title="预报" />
+    
+    <item
+        android:id="@+id/musicFragment"
+        android:icon="@drawable/ic_music"
+        android:title="音乐" />
+    
+    <item
+        android:id="@+id/diaryFragment"
+        android:icon="@drawable/ic_diary"
+        android:title="日记" />
+    
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="设置" />
+</menu> 
